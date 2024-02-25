@@ -1,0 +1,43 @@
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+
+}
+
+body{
+    min-height: 100vh;
+    background-image: linear-gradient(to bottom left, green,white, yellow);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.container{
+margin: 10px;
+padding: 5px;
+line-height: 200%;
+}
+
+.welcome{
+    text-align: center;
+}
+.link{
+    cursor: pointer;
+    color: blue;
+    text-decoration: none;
+    
+}
+.last_para{
+    font-weight: bold; 
+    text-align: center;
+}
+.last_line{
+    color: blue; 
+    font-size: 16px; 
+    font-weight: bold; 
+    text-align: center;
+}
+.subject{
+    color:red;
+}

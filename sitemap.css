@@ -1,0 +1,128 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'popins', sans-serif;
+    box-sizing: border-box;
+}
+body{
+    background: linear-gradient(180deg, #FFF 0%, #D3AC7A 99.99%, #D3AC7A 100%);;
+    color: #000;
+}
+h1{
+    padding: 3rem 10rem;
+    margin-left: 10rem;
+}
+
+.container{
+    width: 100%;
+}
+img{
+    height: 15rem;
+    width: 15rem;
+}
+a{
+    text-decoration: none;
+    color: #17790F;
+    display: flex;
+    font-weight: 500px;
+    font-size: 20px;
+}
+a:hover{
+    color: red;
+    font-weight: 1000px;
+    font-weight: 30px;
+}
+.container h2{
+    padding: 0px 20rem;
+    margin: 0px 20rem;
+    margin-top: 50px;
+    font-weight: 500px;
+}
+.Product_page ul,
+.all_pages ul{
+    overflow: auto;
+    padding: 15px 0px;
+}
+.all_pages h2{
+   padding: 15px 0px;
+}
+.all_pages_img{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    justify-content: center;
+    gap: 30%;
+}
+.Initiate_hope{
+    display: flex;
+    flex-direction: row;
+    padding: 50px;
+    align-items: center;
+    justify-content: center;
+    gap: 30%;
+}
+
+.Linked-img{
+    display: flex;
+    justify-content: space-evenly;
+    justify-content: center;
+    align-items: center;
+    gap: 30%;
+}
+.container .Initiate_hope img{
+    height: 21%;
+    width: 21%;
+}
+@media(max-width: 660px){
+    .container{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-top: 4rem;
+    }
+    
+    h1{
+        width: 100%;
+        font-size: 25px;
+        padding: 0;
+        padding-top: 50px;
+        padding-left: 4rem;
+        margin: 0;
+    }
+    .container h2{
+        margin: 3rem;
+        padding: 0rem;
+    }
+    .container .Initiate_hope img{
+        height: 42%;
+        width: 42%;
+    }
+    .all_pages_img{
+        display: flex;
+        flex-direction: column-reverse;
+        text-align: center;
+    }
+    .all_pages,
+    .Product_page,
+    .h2_p{
+        margin-top: 2rem;
+        margin-left: 2rem;
+        margin-bottom: 2rem;
+    }
+    .Linked-img,
+    .Initiate_hope{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+    .gif{
+        margin-top: 26px;
+    }
+    .container h2{
+        margin-bottom: 0px;
+        margin-top: 0px;
+    }
+    
+}
+

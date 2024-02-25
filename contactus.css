@@ -1,0 +1,362 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins' sans-serif;
+}
+
+body{
+    background:  linear-gradient(180deg, #FFF 0%, #D3AC7A 99.99%, #D3AC7A 100%);
+    overflow-x: hidden;
+    font-family: Verdana, sans-serif;
+    margin:0
+}
+
+/************************************************************************
+                body
+                *************************************************************/
+.Contact{
+    position: relative;
+    height: 100vh;
+    padding: 50px 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column; 
+     
+    background-size: cover; 
+}
+.Contact .content{
+    max-width: 800px;
+    text-align: center;
+    color: #31792A;
+}
+h1{
+    font-size: 36px;
+    font-weight: 500px;
+    color: #fff;
+}
+.container{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 80px;
+    border: 2px solid linear-gradient(to right, #00093c, #2d0b00);
+}
+.contactInfo{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+}
+.box{
+    position: relative;
+    margin: 20px 0px;
+    display: flex;
+}
+.icon{
+    min-width: 50px;
+    height: 50px;
+    padding: 20px 20px;
+    background-color:rgba(173, 242, 167, 0.40);
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 22px;
+}
+.text{
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+    color: #000;
+
+    font-size: 20px;
+    font-weight: 300px;
+}
+h3{
+    color: #4f3180;
+    font-weight: 500px;
+    font-size: 30px;
+}
+.contactform{
+    background-color: #e9f4f0;
+    width: 40%;
+    background-color: #fff;
+    padding: 40px;
+    border:2px solid #3c00a0;
+}
+h2{
+    font-size: 40px;
+    color: #31792A;
+
+    font-weight: 500px;
+    
+}
+.inputbox{
+    position: relative;
+    width: 100%;
+    margin-top: 10px;
+}
+input{
+    width: 100%;
+    padding: 10px 0;
+    border: none;
+    margin: 5px 0;
+    font-size: 16px;
+    border-bottom: 2px solid black;
+    outline: none;
+}
+textarea{
+    width: 100%;
+    border: none;
+    font-size: 16px;
+    border-bottom: 2px solid black;
+    padding: 10px 0;
+    margin: 5px 0;
+    outline: none;
+    resize: none;
+}
+span{
+    position: absolute;
+    padding: 10px 0;
+    margin: 5px 0;
+    left: 0;
+    pointer-events: none;
+    transition: 0.5s;
+    color: #666;
+}
+input:focus~span{
+    color: #e91e63;
+    font-size: 12px;
+    transform: translateY(-20px);
+
+}
+input:valid~span{
+    color: #e91e63;
+    font-size: 12px;
+    transform: translateY(-20px);
+}
+textarea:focus~span{
+    color: #e91e63;
+    font-size: 12px;
+    transform: translateY(-20px);
+}
+textarea:valid~span{
+    color: #e91e63;
+    font-size: 12px;
+    transform: translateY(-20px);
+}
+.inputbox input[type="submit"]{
+    background-color: #3c00a0;
+    color: #fff;
+    width: 100px;
+    padding: 10px;
+    cursor: pointer;
+    font-size: 18px;
+    border: none;
+
+}
+/***********************************************************
+                        Footer section
+**********************************************************/
+footer{ 
+    width: 100%;
+    background: #9FC095;
+    height: 29vh;
+    display: flex;
+    gap: 20%;
+}
+.nav_foot{
+    margin-left: 65px;
+    padding-top: 25px;
+    display: flex;
+    flex-direction: column;
+    gap: 10%;
+    
+}
+.logo_fo{
+    display: flex;
+    flex-direction: row;
+}
+.img_fo{
+    height: 7rem;
+    width: 7rem;
+}
+  
+.footer1 .nav_logo .logo_fo h2{
+    padding-top: 38px;
+    padding-left: 15px;
+    font-size: 35px ;
+}
+a{
+    font-weight: 500px;
+    text-decoration: none;
+}
+h2{
+    color: #17790F;
+    font-family: Magra;
+    font-size: 1.5rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+.footer1 p{
+        color: #000;
+        font-family: Magra;
+        font-size: 1.1rem;
+        font-style: normal;
+        font-weight: 600;
+        line-height: normal;
+    }
+ footer ul{
+    margin-top: 20px;
+}
+.footer1 footer ul a{
+    display: block;
+    font-size: 0.85rem;
+    margin-top: 10px;
+
+}
+.foot_pan2{
+    
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    justify-content: space-between;
+    height: 20%;
+}
+.footer1 .ho{
+    position: relative;
+    top: 2rem;
+  
+}
+
+.footer1{
+    height: 21%;
+    background-color: #000;
+    position: relative;
+   background-color: #9FC095;
+}
+.foot{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    text-align: center;
+    justify-content: space-between;
+    gap: 50px;
+}
+.Navbar_link:link,
+.Navbar_link:visited{
+    text-decoration: none;
+    float: left;
+    color: #31792A;
+    font-family: Magra;
+    font-size: 1.65rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    transition: all 0.3s;
+}
+.Navbar_link:hover,
+.Navbar_link:active{
+    color: #FFC90B;
+}
+
+@media (max-width: 660px) {
+  
+    .content{
+        max-width: 800px;
+        text-align: center;
+        position: absolute;
+        left: 227px;
+        top: 49px;
+        font-size: 30px;
+        margin: 0;
+    }
+    .contactInfo{
+        display: none;
+        position: relative;
+        top: 110%;
+    }
+    
+    .contactform{
+        width: 100%;
+        background-color: #fff;
+        padding-left: 104px;
+        display: flex;
+        height: 74vh;
+        padding-top: 59px;
+        padding-right: 104px;
+    }
+    .text{
+        display: flex;
+        flex-direction: column;
+        margin-left: 20px;
+        color: #000;
+        font-size: 12px;
+        font-weight: 300px;
+    }
+    h2{
+        font-size: 20px;
+    }
+    h3{
+        font-weight: 500px;
+        font-size: 20px;
+    }
+    .icon{
+        height: 5px;
+        width: 5px;
+        border-radius: 50%;
+        font-size: 20px;
+    }
+    .box{
+        position: relative;
+        margin-bottom: 0px;
+        display: flex;
+        padding: 0;
+
+    }
+    .container{
+        width: 100%;
+        display: flex;
+        height: 100%;
+        flex-direction: column;
+        margin-top: 230px;
+    }
+    .Contact{
+        padding-top: 0;
+        padding-bottom: 137px;
+    }
+    .contact1{
+        position: relative;
+        right: 7.1%;
+        margin-top: 7px;
+    }
+    .inputbox{
+        padding-bottom: 9px;
+        margin-bottom: 15px;
+        
+    }
+    .img_fo{
+        height: 4rem;
+        width: 4rem;
+    }
+    .footer1 .nav_logo .logo_fo h2 {
+        padding-top: 23px;
+        padding-left: 10px;
+        font-size: 20px;
+    }
+    
+    .footer1{
+        display: flex;
+        justify-content: row;
+        flex-direction: column;
+    }
+    /* responsiveness for footer-part */
+    .nav_logo{
+        display: none;
+    }
+
+    
+}
